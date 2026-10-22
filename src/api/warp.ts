@@ -1,6 +1,5 @@
 import { WarpAccount } from '#types/settings';
 import { getWarpAccounts } from '@settings';
-import { generateKeyPairSync } from 'node:crypto';
 
 interface WarpKeys {
     publicKey: string;
